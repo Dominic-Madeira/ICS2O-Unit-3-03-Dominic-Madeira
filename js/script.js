@@ -1,7 +1,7 @@
 // Copyright (c) 2023 Dominic M. All rights reserved
 //
 // Created by: Dominic M.
-// Created on: March 2023
+// Created on: April 2023
 'use strict'
 /**
  * This function calculates area and perimeter of rectangle.
