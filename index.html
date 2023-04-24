@@ -29,36 +29,31 @@
       <header class="mdl-layout__header">
         <div class="mdl-layout__header-row">
           <!-- This is the header of the webpage -->
-          <span class="mdl-layout-title"><h3>Calculator</h3></span>
+          <span class="mdl-layout-title"><h3>Calculate Volume of Sphere</h3></span>
         </div>
       </header>
       <main class="mdl-layout__content">
         <form action="#">
           <div class="page-content">
             <!--This is the text-->
-            Click the button.
+            <h3>Formula
+              <br />
+              V = 4/3 π r³
+            </h3>
+            <h4>Please enter a number</h4>
           </div>
-          <div class="mdl-textfield mdl-js-textfield">
-            <!--This is where they type in the answer-->
-            <input
-              class="mdl-textfield__input"
-              type="text"
-              pattern="-?[0-9]*(\.[0-9]+)?"
-              id="age-entered"
-            />
-            <label class="mdl-textfield__label" for="age-entered"
-              >Enter a number ...</label
-            >
-            <span class="mdl-textfield__error">Input is not a number!</span>
-          </div>
-        </form>
+          <form action="#">
+            Radius:
+            <div class="mdl-textfield mdl-js-textfield">
+              <!--This is where they type in the answer-->
+              <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="radius" step="0.01" />
+              <label class="mdl-textfield__label" for="radius">Enter a number ...</label>
+              <span class="mdl-textfield__error">Input is not a number!</span>
+            </div>
+            mm
+          </form>
         <div>
-          <img src="./images/Calculator-Download-PNG-1.png" alt="calculator" />
-          <style>
-            img {
-              float: right;
-            }
-          </style>
+          <img src="./images/sphere.png" alt="calculator" />
         </div>
         <br />
         <!-- Colored raised button -->
@@ -70,6 +65,7 @@
         </button>
         <br />
         <br />
+        <div id="volume"></div>
       </main>
     </div>
   </body>
