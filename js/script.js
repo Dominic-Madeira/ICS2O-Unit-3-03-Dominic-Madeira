@@ -4,7 +4,7 @@
 // Created on: April 2023
 'use strict'
 /**
- * This function calculates area and perimeter of rectangle.
+ * This function calculates the volume of a sphere
  */
 function myButtonClicked () {
   // input
