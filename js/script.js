@@ -6,6 +6,14 @@
 /**
  * This function calculates the volume of a sphere
  */
+
+if (navigator.serviceWorker) {
+  navigator.serviceWorker.register("/ICS2O-Unit-3-03-Dominic-Madeira/sw.js", {
+    scope: "/ICS2O-Unit-3-03-Dominic-Madeira/",
+  })
+}
+
+
 function myButtonClicked () {
   // input
   const radius = parseFloat(document.getElementById('radius').value)
